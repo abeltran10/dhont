@@ -32,7 +32,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        String[] nombre = new String[]{"PP", "PSOE", "VOX", "SUMAR", "CS", "UP", "OTROS"};
+        String[] nombre = new String[]{"PP", "PSOE", "VOX", "SUMAR", "CS", "UP", "OTROS", "CEUS", "AHORA REPÚBLICAS", "JUNTS1"};
         //String[] nombre = new String[]{"A", "B", "C", "D", "E"};
 
         Map<String, Integer> votos = new HashMap<>();
@@ -40,7 +40,7 @@ public class Main {
 
         System.out.println("Sistema dHondt con " + nombre.length + " partidos, " + escanyos + " escaños.");
 
-        for(int i = 0; i < nombre.length; i++) {
+        for (int i = 0; i < nombre.length; i++) {
             System.out.println("Votos " + nombre[i] + ": ");
             Scanner s = new Scanner(System.in);
             votos.put(nombre[i], s.nextInt());
