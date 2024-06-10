@@ -32,7 +32,10 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        String[] nombre = new String[]{"PP", "PSOE", "VOX", "SUMAR", "CS", "UP", "OTROS", "CEUS", "AHORA REPÚBLICAS", "JUNTS1"};
+        String[] nombre = new String[]{"PP", "PSOE", "VOX", "SUMAR", "CS", "UP", "CEUS", "AHORA REPÚBLICAS",
+                "JUNTS1", "SeAcaboLaFiesta", "PACMA", "FO", "ESP. EXISTE", "IZQESP", "PFAC", "IE", "ANDALUCISTAS", "VOLT",
+                "EB", "PCTE", "PIRATAS", "PCPE", "FE DE LAS JONS", "SAE", "CREE EU", "R. CERO", "PMR", "PH", "PREPAL",
+                "F", "JUEX", "GLG", "CRT", "EXTREMEÑOS"};
         //String[] nombre = new String[]{"A", "B", "C", "D", "E"};
 
         Map<String, Integer> votos = new HashMap<>();
